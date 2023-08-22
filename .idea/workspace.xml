@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="325f9a8e-5d8a-4903-accc-566d4864bc1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Connect4/MinMaxPlayer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connect4/Menus.py" beforeDir="false" afterPath="$PROJECT_DIR$/Connect4/Menus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Connect4/MinMaxPlayer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Connect4/MinMaxPlayer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Connect4/gameBoard.py" beforeDir="false" afterPath="$PROJECT_DIR$/Connect4/gameBoard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connect4/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Connect4/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
