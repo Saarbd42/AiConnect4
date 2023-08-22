@@ -1,2 +1,2 @@
 # AiConnect4
-Play Connect4 against diffrent algorithms.
+Play Connect4 against different algorithms.
