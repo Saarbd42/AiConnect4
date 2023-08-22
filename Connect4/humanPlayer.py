@@ -1,9 +1,9 @@
-class humanPlayer():
+class HumanPlayer():
     def __init__(self, playerNumber):
         self.playerNumber = playerNumber
 
     def makeAMove(self, board):
-        playerMove = input("Make a move ")
+        playerMove = input(f"Player {self.playerNumber}: ")
         if self.checkIfLegalMove(playerMove, board):
             return self.formatPlayerMove(playerMove)
         else:

@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="325f9a8e-5d8a-4903-accc-566d4864bc1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Connect4/HumanVsHumanGame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Connect4/WhoWon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Connect4/Connect4Game.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connect4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Connect4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connect4/GameFunctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Connect4/GameClass.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Connect4/GameClass.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Connect4/HumanVsHumanGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/Connect4/HumanVsHumanGame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Connect4/WhoWon.py" beforeDir="false" afterPath="$PROJECT_DIR$/Connect4/WhoWon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Connect4/gameBoard.py" beforeDir="false" afterPath="$PROJECT_DIR$/Connect4/gameBoard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Connect4/humanPlayer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Connect4/humanPlayer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +41,28 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/97252/Desktop/תכנות/AiConnect4&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.HumanVsHumanGame">
+    <configuration name="HumanVsHumanGame" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AiConnect4" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Connect4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Connect4/HumanVsHumanGame.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="WhoWon" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AiConnect4" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -64,6 +86,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.HumanVsHumanGame" />
         <item itemvalue="Python.WhoWon" />
       </list>
     </recent_temporary>

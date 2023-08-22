@@ -11,6 +11,7 @@ def checkDiagonals(board, playerNum):
         return True
     return False
 
+
 def checkColumns(board, playerNum):
     currentBoard = board.getCurrentState()
     for columnNum in range(len(currentBoard[0])):
@@ -92,12 +93,14 @@ def checkTheRowContinuitySum(currentBoard, playerNum, rowNum):
         playerNum)
     return checkIfSumBiggerThanTwo(leftSideContinuity, rightSideContinuity)
 
+
 def checkIfSumBiggerThanTwo(num1, num2):
     sumTheSides = num1 + num2
     if sumTheSides >= 3:
         return True
     else:
         return False
+
 
 def checkContinuity(spots, playerNum):
     count = 0
@@ -107,25 +110,3 @@ def checkContinuity(spots, playerNum):
         else:
             break
     return count
-
-
-# FOR TEST
-import gameBoard as gb
-
-board = gb.Board()
-board.changeTheBoard(0, 0)
-board.changeTheBoard(1, 1)
-board.changeTheBoard(1, 2)
-board.changeTheBoard(2, 1)
-board.changeTheBoard(2, 1)
-board.changeTheBoard(3, 2)
-board.changeTheBoard(3, 2)
-board.changeTheBoard(3, 1)
-board.changeTheBoard(4, 2)
-board.changeTheBoard(4, 2)
-board.changeTheBoard(4, 2)
-board.changeTheBoard(4, 1)
-
-
-print(board.getCurrentState())
-print(checkIfPlayerWon(board, 1))

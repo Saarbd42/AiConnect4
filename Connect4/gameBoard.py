@@ -8,6 +8,15 @@ class Board():
     def getCurrentState(self):
         return self.boardCurrentState
 
+    def checkForTie(self):
+        count = 0
+        for i in range(7):
+            if self.boardCurrentState[0][i] != 0:
+                count += 1
+        if count == 7:
+            return True
+        return False
+
     def changeTheBoard(self, playerMove, playerNumber):
         if not self.isThereAnError(playerMove):
             for i in range(6):
