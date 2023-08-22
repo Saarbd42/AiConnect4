@@ -17,6 +17,9 @@ class Board():
             return True
         return False
 
+    def switchToANewBoard(self, newBoardCurrentState):
+        self.boardCurrentState = newBoardCurrentState
+
     def changeTheBoard(self, playerMove, playerNumber):
         if not self.isThereAnError(playerMove):
             for i in range(6):

@@ -1,5 +1,6 @@
 import GameTypes as gt
 
+
 def mainMenu():
     end = False
     while not end:
