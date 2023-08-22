@@ -2,14 +2,15 @@ import WhoWon as ww
 
 
 def visualConnect4Game(board, firstPlayer, secondPlayer):
+    basicVisuals(board)
     while True:
-        basicVisuals(board)
         possibleWinner = makeAMoveAndCheckForVictory(board, firstPlayer)
+        basicVisuals(board)
         if possibleWinner != 0:
             return possibleWinner
 
-        basicVisuals(board)
         possibleWinner = makeAMoveAndCheckForVictory(board, secondPlayer)
+        basicVisuals(board)
         if possibleWinner != 0:
             return possibleWinner
 
@@ -40,4 +41,5 @@ def makeAMoveAndCheckForVictory(board, player):
 
 
 def basicVisuals(board):
+    print("")
     print(board.getCurrentState())
