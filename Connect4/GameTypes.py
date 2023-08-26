@@ -11,31 +11,19 @@ def humanVsHumanGame():
     firstPlayer = hp.HumanPlayer(1)
     secondPlayer = hp.HumanPlayer(2)
     winner = Connect4Game.visualConnect4Game(board, firstPlayer, secondPlayer)
-    victoryAnnouncement(winner)
-
+    return winner
 
 def humanVsRandomGame(humanTurn):
     board = gb.Board()
     firstPlayer, secondPlayer = humanVsRandomTurns(humanTurn)
     winner = Connect4Game.visualConnect4Game(board, firstPlayer, secondPlayer)
-    victoryAnnouncement(winner)
-
+    return winner
 
 def humanVsMinMax(humanTurn, AiForesight):
     board = gb.Board()
     firstPlayer, secondPlayer = humanVsMinMaxTurns(humanTurn, AiForesight)
     winner = Connect4Game.visualConnect4Game(board, firstPlayer, secondPlayer)
-    victoryAnnouncement(winner)
-
-
-def victoryAnnouncement(winner):
-    print("")
-    if winner != 0:
-        print(f"PLAYER {winner} WON!")
-    else:
-        print("TIE")
-    print("")
-    time.sleep(1)
+    return winner
 
 
 def humanVsRandomTurns(humanTurn):
