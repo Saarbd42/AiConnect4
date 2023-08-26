@@ -1,38 +1,33 @@
 import WhoWon as ww
 import time
 
+
 def visualConnect4Game(board, firstPlayer, secondPlayer):
     printPrettyBoard(board, firstPlayer.playerNumber, secondPlayer.playerNumber)
     while True:
-        possibleWinner = makeAMoveAndCheckForVictory(board, firstPlayer)
-        printPrettyBoard(board, firstPlayer.playerNumber, secondPlayer.playerNumber)
-        if possibleWinner != 0:
-            victoryAnnouncement(possibleWinner, firstPlayer.playerNumber, secondPlayer.playerNumber)
-            return possibleWinner
+        for player in [firstPlayer, secondPlayer]:
+            possibleWinner = makeAMoveAndCheckForVictory(board, player)
+            printPrettyBoard(board, firstPlayer.playerNumber, secondPlayer.playerNumber)
+            if possibleWinner != 0:
+                victoryAnnouncement(possibleWinner, firstPlayer.playerNumber, secondPlayer.playerNumber)
+                return possibleWinner
 
-        possibleWinner = makeAMoveAndCheckForVictory(board, secondPlayer)
-        printPrettyBoard(board, firstPlayer.playerNumber, secondPlayer.playerNumber)
-        if possibleWinner != 0:
-            victoryAnnouncement(possibleWinner, firstPlayer.playerNumber, secondPlayer.playerNumber)
-            return possibleWinner
-
-        if board.checkForTie():
-            victoryAnnouncement(0, firstPlayer.playerNumber, secondPlayer.playerNumber)
-            return 0
+            if board.checkForTie():
+                victoryAnnouncement(0, firstPlayer.playerNumber, secondPlayer.playerNumber)
+                return 0
 
 
 def noVisualConnect4Game(board, firstPlayer, secondPlayer):
     while True:
-        possibleWinner = makeAMoveAndCheckForVictory(board, firstPlayer) != 0
-        if possibleWinner != 0:
-            return possibleWinner
+        for player in [firstPlayer, secondPlayer]:
+            possibleWinner = makeAMoveAndCheckForVictory(board, player)
+            if possibleWinner != 0:
+                victoryAnnouncement(possibleWinner, firstPlayer.playerNumber, secondPlayer.playerNumber)
+                return possibleWinner
 
-        possibleWinner = makeAMoveAndCheckForVictory(board, secondPlayer) != 0
-        if possibleWinner != 0:
-            return possibleWinner
-
-        if board.checkForTie():
-            return 0
+            if board.checkForTie():
+                victoryAnnouncement(0, firstPlayer.playerNumber, secondPlayer.playerNumber)
+                return 0
 
 
 def victoryAnnouncement(winner, firstPlayerNum, secondPlayerNum):
