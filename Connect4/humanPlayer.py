@@ -21,7 +21,7 @@ class HumanPlayer():
         try:
             playerMove = int(playerMove)
         except:
-            print("Error")
+            # print("Error")
             return False
         return True
 

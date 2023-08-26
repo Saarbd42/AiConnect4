@@ -11,11 +11,11 @@ class MinMaxPlayer():
         self.maxForwardSight = maxForwardSight
 
     def makeAMove(self, board):
-        possibleMoves = self.centersizedArray()
+        scores = np.zeros(7)
         for i in range(7):
-            possibleMoves[i] += self.trySevenMoves(board, self.originalPlayerNumber, 1)
-        print(possibleMoves)
-        return np.argmax(possibleMoves)
+            scores[i] = self.scoreTheMove(board, i, self.playerNumber, 1)
+        scores += self.centersizedArray()
+        return np.argmax(scores)
 
     def centersizedArray(self):
         return np.array([0,1,2,3,2,1,0])
@@ -24,9 +24,6 @@ class MinMaxPlayer():
         scores = np.zeros(7)
         for i in range(7):
             scores[i] = self.scoreTheMove(board, i, playerNum, currentForwardSight)
-        print(playerNum)
-        print(scores)
-        print(self.returnMinOrMax(scores, playerNum))
         return self.returnMinOrMax(scores, playerNum)
 
     def scoreTheMove(self, board, move, playerNum, currentForwardSight):
