@@ -35,6 +35,9 @@ def linksOfSinglePlayerMenu(choice):
     if choice == 1:
         humanTurn = playFirstOrSecond()
         gt.humanVsRandomGame(humanTurn)
+    elif choice == 2:
+        humanTurn = playFirstOrSecond()
+        gt.humanVsMinMax(humanTurn, 2)
     elif choice == 5:
         return True
     return False
