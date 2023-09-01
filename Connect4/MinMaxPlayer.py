@@ -38,18 +38,22 @@ class MinMaxPlayer():
 
     def scoreALegalMove(self, copiedBoard, playerNum, currentForwardSight):
         if ww.checkIfPlayerWon(copiedBoard, playerNum):
-            return self.scoreAWin(playerNum)
+            return self.scoreAWin(playerNum, currentForwardSight)
         else:
             if currentForwardSight >= self.maxForwardSight:
                 return 0
             else:
                 return self.switchPlayerAndTrySevenMoves(copiedBoard, playerNum, currentForwardSight + 1)
 
-    def scoreAWin(self, playerNum):
+    def scoreAWin(self, playerNum, currentForwardSight):
         if self.amITryingToMax(playerNum):
-            return 1000
+            return 1000 - self.penalizeLongWins(currentForwardSight)
         else:
-            return -1000
+            return -1000 + self.penalizeLongWins(currentForwardSight)
+
+    def penalizeLongWins(self, currentForwardSight):
+        result = currentForwardSight*5
+        return result
 
     def returnMinOrMax(self, scores, playerNum):
         if self.amITryingToMax(playerNum):
