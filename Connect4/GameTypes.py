@@ -13,11 +13,13 @@ def humanVsHumanGame():
     winner = Connect4Game.visualConnect4Game(board, firstPlayer, secondPlayer)
     return winner
 
+
 def humanVsRandomGame(humanTurn):
     board = gb.Board()
     firstPlayer, secondPlayer = humanVsRandomTurns(humanTurn)
     winner = Connect4Game.visualConnect4Game(board, firstPlayer, secondPlayer)
     return winner
+
 
 def humanVsMinMax(humanTurn, AiForesight):
     board = gb.Board()
