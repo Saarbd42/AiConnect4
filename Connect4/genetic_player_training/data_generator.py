@@ -6,10 +6,9 @@ from connect4.game_board import Board
 from mtc_player import MTCPlayer
 
 MTC_STRENGTH = 100
-HOW_MANY_GAMES = 2
+HOW_MANY_GAMES = 100
 LOAD_DATA = True
 first_time = False
-
 
 # LOAD DATA
 if LOAD_DATA:
@@ -21,7 +20,7 @@ first_mtc = MTCPlayer(1, MTC_STRENGTH)
 second_mtc = MTCPlayer(2, MTC_STRENGTH)
 
 for i in range(HOW_MANY_GAMES):
-    print(f"game {i + 1}")
+    print(f"game {i + 1} out of {HOW_MANY_GAMES}")
     clean_board = Board()
     X_player_1, X_player_2, y_player_1, y_player_2 = connect_4_game_for_data_mining(clean_board, first_mtc, second_mtc)
     data = [X_player_1, X_player_2, y_player_1, y_player_2]
@@ -36,7 +35,9 @@ for i in range(HOW_MANY_GAMES):
         current_dfs = [X_1, X_2, y_1, y_2]
         new_dfs = [new_X_1, new_X_2, new_y_1, new_y_2]
         X_1, X_2, y_1, y_2 = dgf.concat_data_to_our_data_frames(current_dfs, new_dfs)
+
         print(X_1.head())
+        print(X_1.tail())
 
     dgf.print_dfs_details([X_1, X_2, y_1, y_2], ["X_1", "X_2", "y_1", "y_2"])
 

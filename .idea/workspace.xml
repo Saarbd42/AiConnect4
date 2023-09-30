@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="325f9a8e-5d8a-4903-accc-566d4864bc1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Connect4/genetic_player_training/data_generator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Connect4/genetic_player_training/data_generator_functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connect4/genetic_player_training/data_generation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connect4/genetic_player_training/genetic_training.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connect4/genetic_player_training/mtc_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Connect4/genetic_player_training/mtc_game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connect4/connect_4_game.py" beforeDir="false" afterPath="$PROJECT_DIR$/connect4/connect_4_game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connect4/game_board.py" beforeDir="false" afterPath="$PROJECT_DIR$/connect4/game_board.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connect4/game_types.py" beforeDir="false" afterPath="$PROJECT_DIR$/connect4/game_types.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connect4/min_max_player.py" beforeDir="false" afterPath="$PROJECT_DIR$/connect4/min_max_player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connect4/genetic_player_training/data_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/connect4/genetic_player_training/data_generator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,8 +150,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.data_generator (1)" />
-        <item itemvalue="Python.data_generator" />
         <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.data_generator" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.genetic_player" />
       </list>

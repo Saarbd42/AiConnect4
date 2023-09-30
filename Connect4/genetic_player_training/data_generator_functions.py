@@ -8,7 +8,9 @@ def print_dfs_details(data, names):
 
 def load_game_data():
     X_1 = pd.read_csv("X_1 data", index_col=[0])
+    X_1.columns = range(42) # Aligns the index with the index of other charts
     X_2 = pd.read_csv("X_2 data", index_col=[0])
+    X_2.columns = range(42)  # Aligns the index with the index of other charts
     y_1 = pd.read_csv("y_1 data", index_col=[0])
     y_2 = pd.read_csv("y_2 data", index_col=[0])
     return X_1, X_2, y_1, y_2
@@ -16,8 +18,8 @@ def load_game_data():
 
 def concat_data_to_our_data_frames(current_dfs, new_dfs):
     for i in range(len(current_dfs)):
-        current_dfs[i].reset_index(drop=True)
-        new_dfs[i].reset_index(drop=True)
+        current_dfs[i] = current_dfs[i].reset_index(drop=True)
+        new_dfs[i] = new_dfs[i].reset_index(drop=True)
     X_df_player_1 = pd.concat([current_dfs[0], new_dfs[0]], ignore_index=True)
     X_df_player_2 = pd.concat([current_dfs[1], new_dfs[1]], ignore_index=True)
     y_df_player_1 = pd.concat([current_dfs[2], new_dfs[2]], ignore_index=True)
