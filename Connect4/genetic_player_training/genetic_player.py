@@ -1,17 +1,17 @@
 import random
 import numpy as np
-from Connect4.gameBoard import Board
+from connect4.game_board import Board
 
 
 def is_move_legal(board, player_move):
-    current_board = board.getCurrentState()
+    current_board = board.get_current_state()
     if current_board[0][player_move] == 0:
         return True
     else:
         return False
 
 
-class Genetic_player():
+class GeneticPlayer:
     def __init__(self, player_number, parameters):
         self.player_number = player_number
         self.parameters = parameters
@@ -36,7 +36,7 @@ class Genetic_player():
         return np.argmax(scores)
 
     def extract_features(self, board):
-        flatten_board = board.getCurrentState()
+        flatten_board = board.get_current_state()
         flatten_board = flatten_board.flatten()
         flatten_board = self.normalize_flatten_board(flatten_board)
         return flatten_board

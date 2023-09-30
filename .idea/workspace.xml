@@ -2,10 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="325f9a8e-5d8a-4903-accc-566d4864bc1c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Connect4/genetic_player_training/MTC_player.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/connect4/connect_4_game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/connect4/game_board.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connect4/geneticPlayerTraining/geneticEquation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Connect4/geneticPlayerTraining/genetic_equation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connect4/geneticPlayerTraining/geneticPlayer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Connect4/geneticPlayerTraining/genetic_player.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Connect4/geneticPlayerTraining/geneticTraining.py" beforeDir="false" afterPath="$PROJECT_DIR$/Connect4/geneticPlayerTraining/genetic_training.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Connect4/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/connect4/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Connect4/.idea/CleanConnect4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/connect4/.idea/CleanConnect4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Connect4/.idea/PythonCleanCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/connect4/.idea/PythonCleanCode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Connect4/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/connect4/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Connect4/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/connect4/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Connect4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/connect4/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Connect4/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/connect4/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Connect4/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/connect4/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Connect4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/connect4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Connect4/Connect4Game.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Connect4/GameTypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/connect4/game_types.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Connect4/Menus.py" beforeDir="false" afterPath="$PROJECT_DIR$/connect4/menus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Connect4/MinMaxPlayer.py" beforeDir="false" afterPath="$PROJECT_DIR$/connect4/min_max_player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Connect4/RandomPlayer.py" beforeDir="false" afterPath="$PROJECT_DIR$/connect4/random_player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Connect4/WhoWon.py" beforeDir="false" afterPath="$PROJECT_DIR$/connect4/who_won.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Connect4/gameBoard.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Connect4/geneticPlayerTraining/genetic_equation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Connect4/genetic_player_training/genetic_equation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Connect4/geneticPlayerTraining/genetic_player.py" beforeDir="false" afterPath="$PROJECT_DIR$/Connect4/genetic_player_training/genetic_player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Connect4/geneticPlayerTraining/genetic_training.py" beforeDir="false" afterPath="$PROJECT_DIR$/Connect4/genetic_player_training/genetic_training.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Connect4/humanPlayer.py" beforeDir="false" afterPath="$PROJECT_DIR$/connect4/human_player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Connect4/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/connect4/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +64,7 @@
       <recent name="C:\Users\97252\Desktop\CS\Projects\AiConnect4\Connect4\geneticPlayerTraining" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.genetic_player">
+  <component name="RunManager" selected="Python.main (1)">
     <configuration name="GameTypes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AiConnect4" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -57,48 +78,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="C:\Users\97252\Desktop\תכנות\AiConnect4\Connect4\GameTypes.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Menus" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AiConnect4" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Connect4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Connect4/Menus.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="WhoWon" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="AiConnect4" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Connect4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Connect4/WhoWon.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,6 +107,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AiConnect4" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/connect4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/connect4/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AiConnect4" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,13 +149,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="menus" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AiConnect4" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Connect4" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\97252\Desktop\CS\Projects\AiConnect4\Connect4\menus.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.genetic_player" />
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.Menus" />
+        <item itemvalue="Python.genetic_player" />
+        <item itemvalue="Python.menus" />
         <item itemvalue="Python.GameTypes" />
-        <item itemvalue="Python.WhoWon" />
       </list>
     </recent_temporary>
   </component>
