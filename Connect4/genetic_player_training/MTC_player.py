@@ -30,9 +30,10 @@ class MTCPlayer:
             # MAKE THE MOVE
             new_board = CopiedBoard(board.get_current_state())
             new_board.change_the_board(player_move, self.player_number)
-            # CHECK HOW IT TURNS UP FOR YOU
-            winning_player = game_types.random_vs_random_game(new_board, mtc_played_first=mtc_played_first)
-            final_score += self.get_random_game_score(winning_player)
+            if not new_board.check_for_tie(): # MAKE SURE THERE ISN'T A TIE
+                # CHECK HOW IT TURNS UP FOR YOU
+                winning_player = game_types.random_vs_random_game(new_board, mtc_played_first=mtc_played_first)
+                final_score += self.get_random_game_score(winning_player)
         return final_score
 
     def get_random_game_score(self, winning_player):

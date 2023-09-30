@@ -1,4 +1,4 @@
-import who_won as ww  # Assuming the module name "WhoWon" is changed to "who_won"
+from connect4 import who_won as ww  # Assuming the module name "WhoWon" is changed to "who_won"
 import time
 
 

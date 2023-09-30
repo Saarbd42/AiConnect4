@@ -1,7 +1,7 @@
 import numpy as np
 
 
-class Board():
+class Board:
     def __init__(self):
         self.board_current_state = np.zeros([6, 7])
 

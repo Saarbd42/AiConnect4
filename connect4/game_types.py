@@ -1,9 +1,9 @@
-import game_board as gb
-import human_player as hp
-import connect_4_game as connect_4_game
-import random_player as rp
-import min_max_player as mmp
-from genetic_player_training import mtc_player as mtc
+from connect4 import game_board as gb
+from connect4 import human_player as hp
+from connect4 import connect_4_game as connect_4_game
+from connect4 import random_player as rp
+from connect4 import min_max_player as mmp
+from connect4.genetic_player_training import mtc_player as mtc
 import time
 
 

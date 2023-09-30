@@ -1,6 +1,6 @@
 import numpy as np
-import who_won as ww
-import game_board as gb
+from connect4 import who_won as ww
+from connect4 import game_board as gb
 
 
 class MinMaxPlayer:
