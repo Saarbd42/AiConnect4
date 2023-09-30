@@ -44,14 +44,14 @@ def victory_announcement(winner, first_player_num, second_player_num):
 
 
 def make_a_move_and_check_for_victory(board, player):
-    move = make_a_move_and_make_sure_its_legal(board, player)
+    move = choose_a_move(board, player)
     board.change_the_board(move, player.player_number)
     if ww.check_if_player_won(board, player.player_number):
         return player.player_number
     return 0
 
 
-def make_a_move_and_make_sure_its_legal(board, player):
+def choose_a_move(board, player):
     legal_move = False
     while not legal_move:
         move = player.make_a_move(board)

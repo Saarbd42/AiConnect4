@@ -14,6 +14,13 @@ def human_vs_mtc_game(human_turn, mtc_num):
     return winner
 
 
+def mtc_vs_mtc_game(board, mtc_num):
+    first_player = mtc.MTCPlayer(1, mtc_num)
+    second_player = mtc.MTCPlayer(2, mtc_num)
+    winner = connect_4_game.no_visual_connect_4_game(board, first_player, second_player)
+    return winner
+
+
 def random_vs_random_game(board, mtc_played_first=False):
     if mtc_played_first:
         first_player = rp.RandomPlayer(2)
